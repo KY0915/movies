@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="gallery-wrapper">
+    <div class="gallery">
+      <div class="search-wrapper">
+        <input placeholder="search movies" />
+      </div>
+      <div class="gallery-container">
+        <ng-container *ngFor="let item of items">
+          <img class="gallery-item" [src]="item.imagePath" />
+        </ng-container>
+        <!-- <img
+          class="gallery-item"
+          src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+        />
+        <img
+          class="gallery-item"
+          src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+        />
+        <img
+          class="gallery-item"
+          src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+        />
+        <img
+          class="gallery-item"
+          src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+        />
+        <img
+          class="gallery-item"
+          src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+        /> -->
+      </div>
+      <div class="gallery-nav-container"></div>
+
+      <div class="gallery-controls"></div>
+    </div>
+  </div>
+</div>
